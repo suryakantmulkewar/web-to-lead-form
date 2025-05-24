@@ -14,8 +14,9 @@ function beforesubmit(event) {
         outputdate.value = formatteddate;
     }
     else{
-        alert('Please check the reCAPTCHA box to submit the lead');
         event.preventDefault();
+        alert('Please check the reCAPTCHA box to submit the lead');
+        
     }
 
 }
