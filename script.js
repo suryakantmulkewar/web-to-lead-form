@@ -1,5 +1,4 @@
 let captchaChecked = false;
-
 function beforesubmit(event) {
 
     if (captchaChecked) {
@@ -13,13 +12,10 @@ function beforesubmit(event) {
         console.log(formatteddate);
 
         outputdate.value = formatteddate;
-
-        return true;
     }
     else{
         alert('Please check the reCAPTCHA box to submit the lead');
         event.preventDefault();
-        return false;
     }
 
 }
