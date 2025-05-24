@@ -33,6 +33,6 @@ function timestamp() {
 }
 setInterval(timestamp, 500);
 
-captchasuccess(){
+function captchasuccess(){
     captchaChecked = true;
 }
